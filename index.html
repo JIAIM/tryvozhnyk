@@ -25,6 +25,11 @@
   .soon b { color:var(--siren); }
   .links { display:flex; flex-wrap:wrap; gap:10px; }
   .links a { text-decoration:none; color:#fff; background:var(--navy); padding:10px 16px; border-radius:999px; font-weight:600; }
+  .donate { display:grid; gap:12px; }
+  .donate h2 { margin:0; font-size:20px; }
+  .donate p { margin:0; color:var(--muted); }
+  .donate a { justify-self:start; text-decoration:none; color:#fff; background:var(--siren); padding:12px 20px; border-radius:999px; font-weight:700; }
+  .donate a:focus-visible, .links a:focus-visible { outline:3px solid var(--fg); outline-offset:2px; }
   footer { color:var(--muted); font-size:14px; display:grid; gap:6px; }
   footer a { color:inherit; }
 </style>
@@ -52,6 +57,12 @@
 
   <div class="card soon">
     <b>Скоро в Google Play.</b> Підпишись — повідомимо про запуск першими.
+  </div>
+
+  <div class="card donate">
+    <h2>Підтримати розробку</h2>
+    <p>Тривожник безкоштовний і без реклами. Перша ціль — Apple Developer для iPhone-версії (5 000 ₴). Усе понад ціль піде на розвиток: сервер для сповіщень і просування.</p>
+    <a href="https://send.monobank.ua/jar/8mBjbF2yR4" rel="noopener">Задонатити на банку ☕</a>
   </div>
 
   <div class="links">
