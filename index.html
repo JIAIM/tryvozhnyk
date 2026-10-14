@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="uk">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Тривожник — будильник, що чекає відбою</title>
+<meta name="description" content="Тривожник — будильник, який мовчить під час повітряної тривоги й будить після відбою. Безкоштовно, без реклами.">
+<meta property="og:title" content="Тривожник — будильник, що чекає відбою">
+<meta property="og:description" content="Тривога вночі — будильник мовчить. Відбій — будить.">
+<meta property="og:image" content="icon.png">
+<link rel="icon" href="favicon.png">
+<style>
+  :root { --bg:#F4F5F8; --card:#FFFFFF; --fg:#12151C; --muted:#5B6271; --navy:#1B2A4A; --siren:#E5483A; --line:#E1E4EB; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#0E1015; --card:#171A21; --fg:#ECEEF2; --muted:#9AA1AF; --line:#2A2F3A; --siren:#FF5A47; } }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--fg); font:17px/1.55 -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width:680px; margin:0 auto; padding:48px 16px 64px; display:grid; gap:20px; }
+  .hero { display:flex; gap:20px; align-items:center; }
+  .hero img { width:96px; height:96px; border-radius:22px; flex:none; }
+  h1 { margin:0; font-size:clamp(30px, 6vw, 40px); line-height:1.1; }
+  .tag { margin:6px 0 0; color:var(--muted); }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:20px; padding:22px; }
+  ul { margin:0; padding-left:20px; display:grid; gap:8px; }
+  .soon { border-color:var(--siren); }
+  .soon b { color:var(--siren); }
+  .links { display:flex; flex-wrap:wrap; gap:10px; }
+  .links a { text-decoration:none; color:#fff; background:var(--navy); padding:10px 16px; border-radius:999px; font-weight:600; }
+  footer { color:var(--muted); font-size:14px; display:grid; gap:6px; }
+  footer a { color:inherit; }
+</style>
+</head>
+<body>
+<main>
+  <div class="hero">
+    <img src="icon.png" alt="Іконка Тривожника">
+    <div>
+      <h1>Тривожник</h1>
+      <p class="tag">Будильник, що чекає відбою</p>
+    </div>
+  </div>
+
+  <div class="card">
+    <ul>
+      <li>Тривога у твоїй громаді — будильник мовчить і дає поспати.</li>
+      <li>Відбій — одразу будить.</li>
+      <li>Залізний будильник дзвонить у вказаний час за будь-яких умов.</li>
+      <li>Обираєш, при якій тривозі спати: будь-якій чи лише червоній.</li>
+      <li>Область, район або громада — на карті тривог чи через пошук.</li>
+      <li>Безкоштовно, без реклами й реєстрації.</li>
+    </ul>
+  </div>
+
+  <div class="card soon">
+    <b>Скоро в Google Play.</b> Підпишись — повідомимо про запуск першими.
+  </div>
+
+  <div class="links">
+    <a href="https://t.me/tryvozhnyk">Telegram</a>
+    <a href="https://instagram.com/tryvozhnyk">Instagram</a>
+    <a href="https://tiktok.com/@tryvozhnyk.app">TikTok</a>
+  </div>
+
+  <footer>
+    <span>Підтримка: tryvozhnyk.app@gmail.com</span>
+    <span><a href="privacy-policy.html">Політика конфіденційності / Privacy Policy</a></span>
+    <span>Тривожник не є офіційною системою оповіщення. Завжди реагуйте на сирени та офіційні канали.</span>
+  </footer>
+</main>
+</body>
+</html>
