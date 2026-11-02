@@ -21,8 +21,11 @@
   .tag { margin:6px 0 0; color:var(--muted); }
   .card { background:var(--card); border:1px solid var(--line); border-radius:20px; padding:22px; }
   ul { margin:0; padding-left:20px; display:grid; gap:8px; }
-  .soon { border-color:var(--siren); }
-  .soon b { color:var(--siren); }
+  .store { display:grid; gap:12px; }
+  .store p { margin:0; color:var(--muted); }
+  .store p a { color:inherit; }
+  .play { justify-self:start; text-decoration:none; color:#fff; background:#1E8E3E; padding:14px 22px; border-radius:999px; font-weight:700; font-size:18px; }
+  .play:focus-visible { outline:3px solid var(--fg); outline-offset:2px; }
   .links { display:flex; flex-wrap:wrap; gap:10px; }
   .links a { text-decoration:none; color:#fff; background:var(--navy); padding:10px 16px; border-radius:999px; font-weight:600; }
   .donate { display:grid; gap:12px; }
@@ -55,13 +58,14 @@
     </ul>
   </div>
 
-  <div class="card soon">
-    <b>Скоро в Google Play.</b> Підпишись — повідомимо про запуск першими.
+  <div class="card store">
+    <a class="play" href="https://play.google.com/store/apps/details?id=ua.tryvozhnyk.alarm" rel="noopener">Завантажити в Google Play</a>
+    <p><b>iPhone:</b> скоро в App Store. Бета вже доступна через TestFlight — посилання в <a href="https://t.me/tryvozhnychok_bot">боті</a>.</p>
   </div>
 
   <div class="card donate">
     <h2>Підтримати розробку</h2>
-    <p>Тривожник безкоштовний і без реклами. Перша ціль — Apple Developer для iPhone-версії (5 000 ₴). Усе понад ціль піде на розвиток: сервер для сповіщень і просування.</p>
+    <p>Тривожник безкоштовний і без реклами. Донати йдуть на сервер, що будить iPhone після відбою, на акаунти Apple і Google та на нові функції.</p>
     <a href="https://send.monobank.ua/jar/8mBjbF2yR4" rel="noopener">Задонатити на банку ☕</a>
   </div>
 
